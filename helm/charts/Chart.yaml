@@ -1,0 +1,7 @@
+apiVersion: v1
+name: Prometheus-demo
+description: A Helm chart to setup a basic prometheus deployment
+type: application
+version: 0.0.1
+appVersion: "0.0.1"
+icon: https://www.roughtrade.com/_next/image?url=https%3A%2F%2Fapi.roughtrade.com%2Fmedia%2Fthumbnails%2Fproducts%2FHold_Me_in_Your_Arms_e5d75816_thumbnail_1024.webp&w=600&q=100
