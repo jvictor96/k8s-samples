@@ -16,5 +16,15 @@ spec:
             name: prometheus-service
             port:
               number: 8080
-        path: /
+        path: /prometheus
+        pathType: Prefix
+  - host: grafana.example.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: grafana-service
+            port:
+              number: 8080
+        path: /grafana
         pathType: Prefix
