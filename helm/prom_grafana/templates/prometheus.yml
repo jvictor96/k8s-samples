@@ -17,7 +17,8 @@ spec:
     spec:
       containers:
         - name: prometheus
-          image: prom/prometheus
+          image: docker.io/prom/prometheus
+          imagePullPolicy: Never
           args:
             - "--storage.tsdb.retention.time=12h"
             - "--config.file=/etc/prometheus/prometheus.yml"

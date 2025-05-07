@@ -1,3 +1,1 @@
-### Quick reference
-
-https://devopscube.com/setup-prometheus-monitoring-on-kubernetes/
+# k8s-samples
